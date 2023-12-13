@@ -17,7 +17,7 @@
 
 | CD Status | Branch |
 | - | - |
-| [![GitHub Actions CD](https://github.com/HuzaifaIrfan/huzaifairfan.com/workflows/Deploy%20to%20Firebase%20Hosting%20on%20merge/badge.svg)](https://github.com/HuzaifaIrfan/huzaifairfan.com/actions?query=workflow%3ADeploy%20to%20Firebase%20Hosting%20on%20merge+branch%prod) | `prod` |
+| [![GitHub Actions CD](https://github.com/HuzaifaIrfan/huzaifairfan.com/workflows/Deploy%20to%20Firebase%20Hosting%20on%20merge/badge.svg)](https://github.com/HuzaifaIrfan/huzaifairfan.com/actions?query=workflow%3ADeploy%20to%20Firebase%20Hosting%20on%20merge) | `prod` |
 
 
 <hr>
