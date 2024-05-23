@@ -20,8 +20,10 @@
       <div class="icon arrow"><i class="fas fa-arrow-left"></i></div>
       <div class="icon dots"><i class="fas fa-ellipsis-v"></i></div>
       <div class="name">Huzaifa Irfan</div>
+      <!--
       <div class="about">Engineer | Developer</div>
       <div class="about">(Web | Embedded | Automation)</div>
+      -->
       <div class="social-icons">
         <a
           href="https://github.com/HuzaifaIrfan/"
@@ -52,5 +54,23 @@
         ></a>
       </div>
     </div>
+    
+    <script>
+      (function(d,t) {
+        var BASE_URL="https://app.chatwoot.com";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'Jy15juS8BGosNZXrqFTAnYgy',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+    
   </body>
 </html>
