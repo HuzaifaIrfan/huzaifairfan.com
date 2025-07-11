@@ -106,17 +106,7 @@ body{
 .wrapper .social-icons{
   margin: 15px 0 25px 0;
 }
-.social-icons a{
-  position: relative;
-  height: 30px;
-  width: 30px;
-  margin: 0 5px;
-  display: inline-flex;
-  text-decoration: none;
-  border-radius: 50%;
-  color: #31344b;
-}
-.social-icons a:hover::before,
+
 .wrapper .icon:hover::before,
 .buttons button:hover:before{
   content: "";
@@ -129,16 +119,4 @@ body{
   background: #ecf0f3;
   box-shadow: inset -3px -3px 7px #ffffff,
               inset 3px 3px 5px #ceced1;
-}
-.buttons button:hover:before{
-  z-index: -1;
-  border-radius: 5px;
-}
-.social-icons a svg{
-  position: relative;
-  z-index: 3;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  line-height: 40px;
 }
