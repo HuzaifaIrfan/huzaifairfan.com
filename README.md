@@ -1,47 +1,36 @@
-<br />
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<div align="center">
-  <h1>Huzaifa Irfan Portfolio Website</h1>
-  <p><h3 align="center">Portfolio Website 🚀</h3></p>
-</div>
+## Getting Started
 
-[huzaifairfan.com](https://huzaifairfan.com/)
-&nbsp;&nbsp;•&nbsp;&nbsp;
-
-
-<hr>
-
-
-
-## CD status
-
-| CD Status | Branch |
-| - | - |
-| [![GitHub Actions CD](https://github.com/HuzaifaIrfan/huzaifairfan.com/workflows/Deploy%20to%20Firebase%20Hosting%20on%20merge/badge.svg)](https://github.com/HuzaifaIrfan/huzaifairfan.com/actions?query=workflow%3ADeploy%20to%20Firebase%20Hosting%20on%20merge) | `prod` |
-
-
-<hr>
-
-
-## Serve Public
+First, run the development server:
 
 ```bash
-firebase serve
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🤝🏻 &nbsp;Connect with Me
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-<p align="center">
-<a href="https://www.huzaifairfan.com"><img src="https://img.shields.io/badge/-huzaifairfan.com-1aa260?style=flat&logo=Google-Chrome&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/huzaifairfan/"><img src="https://img.shields.io/badge/-Huzaifa%20Irfan-0072b1?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="https://github.com/HuzaifaIrfan/"><img src="https://img.shields.io/badge/-Huzaifa%20Irfan-4078c0?style=flat&logo=Github&logoColor=white"/></a>
-<a href="mailto:contact@huzaifairfan.com"><img src="https://img.shields.io/badge/-contact@huzaifairfan.com-c71610?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://www.instagram.com/huzaifairfan2001/"><img src="https://img.shields.io/badge/-@huzaifairfan2001-cd486b?style=flat&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.facebook.com/huzaifairfan2001/"><img src="https://img.shields.io/badge/-@huzaifairfan2001-4267B2?style=flat&logo=Facebook&logoColor=white"/></a>
-</p>
+## Learn More
 
-## License
+To learn more about Next.js, take a look at the following resources:
 
-Licensed under the MIT License, Copyright 2023 Huzaifa Irfan. [LICENSE](LICENSE)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
