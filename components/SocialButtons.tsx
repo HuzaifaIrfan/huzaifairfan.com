@@ -7,7 +7,7 @@ import { faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faWhatsapp, faUpwork } from '@fortawesome/free-brands-svg-icons';
 
 const socialLinks = [
-        {
+    {
         href: 'HuzaifaIrfan-Resume.pdf',
         icon: faUser,
         label: 'Resume',
@@ -17,25 +17,27 @@ const socialLinks = [
         icon: faGithub,
         label: 'GitHub',
     },
-        {
+    {
         href: 'https://wa.me/923155691280',
         icon: faWhatsapp,
         label: 'Whatsapp',
     },
-        {
+    {
         href: 'mailto:contact@huzaifairfan.com',
         icon: faEnvelope,
         label: 'Email',
     },
-        {
+    {
         href: 'https://www.upwork.com/freelancers/huzaifairfan2001',
         icon: faUpwork,
         label: 'Upwork',
     },
 ];
 
+import useSound from 'use-sound';
 
 export default function SocialButtons() {
+    const [play] = useSound('/sounds/mixkit-old-camera-shutter-click-1137.wav');
     return (
         <div className="social-icons">
             <div className="flex gap-4">
@@ -47,6 +49,7 @@ export default function SocialButtons() {
                         rel="noopener noreferrer"
                         aria-label={label}
                         className="text-gray-600 hover:text-blue-500 text-2xl transition"
+                        onClick={() => { play(); }}
                     >
                         <FontAwesomeIcon icon={icon} />
                     </a>
