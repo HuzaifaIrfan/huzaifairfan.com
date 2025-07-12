@@ -23,7 +23,7 @@ const socialLinks = [
         label: 'Whatsapp',
     },
     {
-        href: 'mailto:contact@huzaifairfan.com',
+        href: 'mailto:hi@huzaifairfan.com',
         icon: faEnvelope,
         label: 'Email',
     },
