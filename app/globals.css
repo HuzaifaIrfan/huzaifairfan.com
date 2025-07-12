@@ -22,7 +22,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-
 }
 
 
@@ -49,6 +48,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border: 2px solid #333; 
 }
 .wrapper .icon{
   color: #31344b;
@@ -107,8 +107,7 @@ body{
   margin: 15px 0 25px 0;
 }
 
-.wrapper .icon:hover::before,
-.buttons button:hover:before{
+.wrapper .icon:hover::before{
   content: "";
   position: absolute;
   top: 0;

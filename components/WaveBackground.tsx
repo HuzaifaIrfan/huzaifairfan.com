@@ -8,7 +8,7 @@ const WaveBackground = () => {
   return (
     <div className="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden">
       <Wavify
-        fill="#3b82f6" // Tailwind's blue-500
+        fill="#3b82f6"
         paused={false}
         options={{
           height: 60,
@@ -17,9 +17,9 @@ const WaveBackground = () => {
           points: 4,
         }}
         style={{
-          position: 'absolute',
+          position: "absolute",
           bottom: 0,
-          width: '100%',
+          width: "100%",
         }}
       />
     </div>

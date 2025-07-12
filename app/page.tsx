@@ -14,17 +14,20 @@ import SocialButtons from '@/components/SocialButtons';
 
 import useSound from 'use-sound';
 
+
 export default function Home() {
 
 
   const [play] = useSound('/sounds/mixkit-select-click-1109.wav');
   return (
 
-    <main className="relative min-h-screen flex items-center justify-center text-white">
+    <main className="relative min-h-screen flex items-center justify-center ">
+
       <WaveBackground />
 
 
       <div className="wrapper">
+        
         <div className="img-area">
           <div className="inner-area">
             <img src="img/profile.jpg" alt="" />
